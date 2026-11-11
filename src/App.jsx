@@ -11,40 +11,33 @@ export default function CorporateBoardPortal() {
 
   const boardMembers = [
     {
-      name: "Dr. Ramesh Swaminathan",
-      role: "Chairman & Independent Director",
-      bio: "Former Secretary to the Government of India with over 35 years of distinguished public service in macroeconomic policy and industrial governance.",
+      name: "Abhishek Tiwari",
+      role: "Chairman & Managing Director",
+      bio: "Abhishek Tiwari is an entrepreneur, engineer, and business leader serving as the Founder, Chairman & Managing Director of Vigor Industries Limited. He leads the group's strategic vision and corporate development, with interests spanning technology, artificial intelligence, infrastructure, energy, natural resources, manufacturing, and logistics.",
       insight: "“Long-term enterprise value is anchored in uncompromising institutional resilience, regulatory foresight, and sustainable capital allocation that transcends quarterly horizons.”",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+      image: "abhishek.png"
     },
-    {
-      name: "Ananya Mukherjee",
-      role: "Managing Director & Chief Executive Officer",
+    /*{
+      name: "Sanjeevani Mishra",
+      role: "Vice Chairwoman",
       bio: "Pioneered large-scale digital transformation frameworks across global markets. Leads Vigor's global strategic blueprint and technological roadmap.",
       insight: "“The convergence of secure edge architectures and mission-critical enterprise systems defines the frontier of modern industrial autonomy.”",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600"
-    },
+      image: "sanjeevani.png"
+    },*/
     {
-      name: "Vikramaditya Rao",
-      role: "Non-Executive, Non-Independent Director",
-      bio: "Veteran technologist and venture investor specializing in deep-tech infrastructure, semiconductor systems, and high-performance computing clusters.",
+      name: "Yogin Chetwani",
+      role: "Chief Technology Officer",
+      bio: "B.Tech in Data Science from CSVTU Bhilai, specializing in Exploratory Data Analysis (EDA), Business Intelligence and high-performance computing clusters.",
       insight: "“True technological sovereignty demands structural mastery over both silicon-level execution and air-gapped data integrity.”",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600"
-    },
-    {
-      name: "Dr. Helen Vance",
-      role: "Lead Independent Director",
-      bio: "Global authority on corporate governance, international trade compliance, and multi-jurisdictional risk management frameworks.",
-      insight: "“Effective oversight requires active challenge, transparent risk disclosure, and an unwavering commitment to stakeholder accountability.”",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=600"
+      image: "yogin.png"
     }
+    
   ];
 
   const financialMetrics = [
-    { label: "Revenue (FY 2025-26)", value: "$4.82 Billion", change: "+14.2% YoY" },
+    { label: "Revenue (FY 2025-26)", value: "₹10,00,00,000", change: "+14.2% YoY" },
     { label: "Operating Margin", value: "26.4%", change: "+110 bps" },
-    { label: "R&D Investment", value: "6.8% of Revenue", change: "Accelerated Focus" },
-    { label: "Global Workforce", value: "64,000+", change: "Across 28 Countries" }
+    { label: "R&D Investment", value: "45% of Revenue", change: "Accelerated Focus" }
   ];
 
   const governanceDocuments = [
