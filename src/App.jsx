@@ -84,23 +84,9 @@ export default function CorporateBoardPortal() {
       <a href="#filings" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Financial Filings</a>
     </nav>
 
-    <div className="hidden lg:flex items-center space-x-4">
-      <a 
-        href="https://board-repo.vercel.app" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="bg-[#002D62] hover:bg-[#001f43] text-white px-5 py-2.5 text-sm font-medium transition-colors flex items-center gap-2"
-      >
-        <Lock className="w-3.5 h-3.5" /> Board Portal Login
-      </a>
-    </div>
+    
 
-    <button 
-      onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-      className="lg:hidden text-gray-700 p-2"
-    >
-      {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-    </button>
+   
   </div>
 
   {/* Mobile Nav Drawer */}
