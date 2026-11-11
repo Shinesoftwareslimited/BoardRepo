@@ -69,9 +69,13 @@ export default function CorporateBoardPortal() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-[#002D62] flex items-center justify-center text-white font-bold text-xl tracking-tighter">
-              V
-            </div>
+            <div className="flex items-center space-x-3">
+  <img src="/logo.svg" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
+  <div>
+    <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
+    <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
+  </div>
+</div>
             <div>
               <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
               <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
@@ -285,9 +289,13 @@ export default function CorporateBoardPortal() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-white text-[#111] flex items-center justify-center font-bold text-lg">
-                V
-              </div>
+              <div className="flex items-center space-x-3">
+  <img src="/logo.svg" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
+  <div>
+    <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
+    <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
+  </div>
+</div>
               <span className="text-lg font-bold tracking-tight">VIGOR TECHNOLOGIES</span>
             </div>
             <p className="text-gray-400 text-xs leading-relaxed">
