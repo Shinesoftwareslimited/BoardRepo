@@ -70,17 +70,13 @@ export default function CorporateBoardPortal() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-3">
-  <img src="/logo.svg" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
+  <img src="/logo.png" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
   <div>
     <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
     <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
   </div>
 </div>
-            <div>
-              <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
-              <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
-            </div>
-          </div>
+            
 
           <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-700">
             <a href="#overview" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Overview</a>
