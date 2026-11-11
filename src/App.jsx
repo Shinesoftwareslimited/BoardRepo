@@ -75,7 +75,7 @@ export default function CorporateBoardPortal() {
     <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
     <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
   </div>
-</div>
+
             
 
           <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-700">
