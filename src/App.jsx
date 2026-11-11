@@ -66,66 +66,64 @@ export default function CorporateBoardPortal() {
       </div>
 
       {/* Main Navigation Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="flex items-center space-x-3">
-  <img src="/logo.png" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
-  <div>
-    <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
-    <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
+     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+  <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div className="flex items-center space-x-3">
+      <img src="/logo.png" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
+      <div>
+        <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
+        <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
+      </div>
+    </div>
+
+    <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-700">
+      <a href="#overview" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Overview</a>
+      <a href="#leadership" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Board of Directors</a>
+      <a href="#insights" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Strategic Insights</a>
+      <a href="#governance" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Governance & Ethics</a>
+      <a href="#filings" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Financial Filings</a>
+    </nav>
+
+    <div className="hidden lg:flex items-center space-x-4">
+      <a 
+        href="https://board-repo.vercel.app" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="bg-[#002D62] hover:bg-[#001f43] text-white px-5 py-2.5 text-sm font-medium transition-colors flex items-center gap-2"
+      >
+        <Lock className="w-3.5 h-3.5" /> Board Portal Login
+      </a>
+    </div>
+
+    <button 
+      onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+      className="lg:hidden text-gray-700 p-2"
+    >
+      {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+    </button>
   </div>
 
-            
-
-          <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-700">
-            <a href="#overview" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Overview</a>
-            <a href="#leadership" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Board of Directors</a>
-            <a href="#insights" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Strategic Insights</a>
-            <a href="#governance" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Governance & Ethics</a>
-            <a href="#filings" className="hover:text-[#002D62] transition-colors py-2 border-b-2 border-transparent hover:border-[#002D62]">Financial Filings</a>
-          </nav>
-
-          <div className="hidden lg:flex items-center space-x-4">
-            <a 
-              href="https://board-repo.vercel.app" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-[#002D62] hover:bg-[#001f43] text-white px-5 py-2.5 text-sm font-medium transition-colors flex items-center gap-2"
-            >
-              <Lock className="w-3.5 h-3.5" /> Board Portal Login
-            </a>
-          </div>
-
-          <button 
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden text-gray-700 p-2"
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
-        {/* Mobile Nav Drawer */}
-        {mobileMenuOpen && (
-          <div className="lg:hidden bg-white border-b border-gray-200 px-6 py-4 space-y-3 font-medium text-sm">
-            <a href="#overview" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Overview</a>
-            <a href="#leadership" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Board of Directors</a>
-            <a href="#insights" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Strategic Insights</a>
-            <a href="#governance" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Governance & Ethics</a>
-            <a href="#filings" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Financial Filings</a>
-            <div className="pt-2 border-t border-gray-100">
-              <a 
-                href="https://board-repo.vercel.app" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-full bg-[#002D62] text-white py-2.5 text-center font-medium block"
-              >
-                Board Portal Login
-              </a>
-            </div>
-          </div>
-        )}
-      </header>
+  {/* Mobile Nav Drawer */}
+  {mobileMenuOpen && (
+    <div className="lg:hidden bg-white border-b border-gray-200 px-6 py-4 space-y-3 font-medium text-sm">
+      <a href="#overview" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Overview</a>
+      <a href="#leadership" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Board of Directors</a>
+      <a href="#insights" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Strategic Insights</a>
+      <a href="#governance" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Governance & Ethics</a>
+      <a href="#filings" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Financial Filings</a>
+      <div className="pt-2 border-t border-gray-100">
+        <a 
+          href="https://board-repo.vercel.app" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="w-full bg-[#002D62] text-white py-2.5 text-center font-medium block"
+        >
+          Board Portal Login
+        </a>
+      </div>
+    </div>
+  )}
+</header>
 
       {/* Hero Section */}
       <section className="relative bg-[#0A192F] text-white py-24 px-6 overflow-hidden">
