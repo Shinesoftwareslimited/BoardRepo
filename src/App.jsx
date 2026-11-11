@@ -35,7 +35,7 @@ export default function CorporateBoardPortal() {
   ];
 
   const financialMetrics = [
-    { label: "Revenue (FY 2025-26)", value: "₹10,00,00,000", change: "+14.2% YoY" },
+    { label: "Revenue (FY 2025-26)", value: "₹10,00,000", change: "+14.2% YoY" },
     { label: "Operating Margin", value: "26.4%", change: "+110 bps" },
     { label: "R&D Investment", value: "45% of Revenue", change: "Accelerated Focus" }
   ];
