@@ -111,16 +111,7 @@ export default function CorporateBoardPortal() {
       <a href="#insights" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Strategic Insights</a>
       <a href="#governance" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Governance & Ethics</a>
       <a href="#filings" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-gray-700">Financial Filings</a>
-      <div className="pt-2 border-t border-gray-100">
-        <a 
-          href="https://board-repo.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="w-full bg-[#002D62] text-white py-2.5 text-center font-medium block"
-        >
-          Board Portal Login
-        </a>
-      </div>
+      
     </div>
   )}
 </header>
@@ -183,7 +174,7 @@ export default function CorporateBoardPortal() {
                     <img 
                       src={member.image} 
                       alt={member.name} 
-                      className="w-16 h-16 object-cover rounded-none grayscale contrast-125"
+                      className="w-16 h-16 object-cover rounded-none"
                     />
                     <div>
                       <h4 className="font-bold text-lg text-[#111]">{member.name}</h4>
