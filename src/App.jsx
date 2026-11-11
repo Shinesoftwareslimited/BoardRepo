@@ -15,7 +15,7 @@ export default function CorporateBoardPortal() {
       role: "Chairman & Managing Director",
       bio: "Abhishek Tiwari is an entrepreneur, engineer, and business leader serving as the Founder, Chairman & Managing Director of Vigor Industries Limited. He leads the group's strategic vision and corporate development, with interests spanning technology, artificial intelligence, infrastructure, energy, natural resources, manufacturing, and logistics.",
       insight: "“Long-term enterprise value is anchored in uncompromising institutional resilience, regulatory foresight, and sustainable capital allocation that transcends quarterly horizons.”",
-      image: "abhishek.png"
+      image: "./Abhishek.png"
     },
     /*{
       name: "Sanjeevani Mishra",
