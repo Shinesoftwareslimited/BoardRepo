@@ -275,11 +275,8 @@ export default function CorporateBoardPortal() {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="flex items-center space-x-3">
-  <img src="/logo.svg" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
-  <div>
-    <span className="text-xl font-bold tracking-tight text-[#002D62]">VIGOR</span>
-    <span className="text-xs block text-gray-500 uppercase tracking-widest font-semibold">Technologies Limited</span>
-  </div>
+  <img src="/logo.png" alt="Vigor Technologies" className="w-10 h-10 object-contain" />
+  
 </div>
               <span className="text-lg font-bold tracking-tight">VIGOR TECHNOLOGIES</span>
             </div>
