@@ -52,11 +52,7 @@ export default function CorporateBoardPortal() {
       {/* Top Utility Bar - Enterprise Style */}
       <div className="bg-[#002D62] text-white text-xs py-2 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-6">
-            <span className="flex items-center gap-1"><Globe className="w-3.5 h-3.5" /> Global Portal</span>
-            <span className="hidden md:inline">|</span>
-            <span className="hidden md:inline text-blue-200">BSE: 543210 | NSE: VIGOR</span>
-          </div>
+          
           <div className="flex items-center space-x-6 font-medium">
             <a href="#investors" className="hover:underline">Investors</a>
             <a href="#careers" className="hover:underline">Careers</a>
