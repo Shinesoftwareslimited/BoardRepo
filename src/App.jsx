@@ -29,7 +29,7 @@ export default function CorporateBoardPortal() {
       role: "Chief Technology Officer",
       bio: "B.Tech in Data Science from CSVTU Bhilai, specializing in Exploratory Data Analysis (EDA), Business Intelligence and high-performance computing clusters.",
       insight: "“True technological sovereignty demands structural mastery over both silicon-level execution and air-gapped data integrity.”",
-      image: "yogin.png"
+      image: "./yogin.png"
     }
     
   ];
